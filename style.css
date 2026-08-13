@@ -1,0 +1,144 @@
+/* ---- Design tokens ---- */
+:root {
+  --color-bg: #FBF7F2;
+  --color-navy: #1F2A44;
+  --color-blush: #F0C9C9;
+  --color-lavender: #D9D3EC;
+  --color-text: #2B2B2B;
+}
+
+/* ---- Reset ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Georgia, serif;
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+h1, h2, h3 {
+  font-family: Cambria, Georgia, serif;
+  color: var(--color-navy);
+}
+
+/* ---- Header / Nav ---- */
+header {
+  background-color: var(--color-navy);
+  padding: 1.25rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: var(--color-bg);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-bg);
+}
+
+.nav-links a:hover {
+  color: var(--color-blush);
+}
+
+/* ---- Main layout ---- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+section {
+  padding: 3.5rem 0;
+  border-bottom: 1px solid var(--color-lavender);
+}
+
+/* ---- Hero ---- */
+#hero h1 {
+  font-size: 2.4rem;
+  display: inline-block;
+  border-bottom: 4px solid var(--color-blush);
+  padding-bottom: 0.3rem;
+}
+
+#hero p {
+  margin-top: 0.75rem;
+  max-width: 550px;
+}
+
+/* ---- Experience / cards ---- */
+.experience-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.experience-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-lavender);
+  border-left: 4px solid var(--color-blush);
+  border-radius: 4px;
+  padding: 1.25rem;
+  flex: 1 1 250px;
+}
+
+.experience-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+/* ---- Skills ---- */
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.skills-list li {
+  background-color: var(--color-lavender);
+  color: var(--color-navy);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+/* ---- Contact ---- */
+#contact a {
+  color: var(--color-navy);
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: var(--color-blush);
+}
+
+/* ---- Footer ---- */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--color-navy);
+  font-size: 0.9rem;
+}
