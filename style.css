@@ -189,3 +189,57 @@ footer {
   }
 }
 
+/* Nav link hover */
+.nav-links a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #F0C9C9; /* blush pink */
+}
+
+/* Experience cards */
+.experience-card {
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(31, 42, 68, 0.15); /* soft navy shadow */
+}
+
+/* Skills list items */
+.skills-list li {
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.skills-list li:hover {
+  background-color: #D9D3EC; /* lavender */
+  transform: scale(1.05);
+}
+
+/* Contact links */
+#contact a {
+  transition: color 0.2s ease;
+}
+
+#contact a:hover {
+  color: #F0C9C9; /* blush pink */
+}
+
+/* Simple fade-in on page load for Hero */
+#hero {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
