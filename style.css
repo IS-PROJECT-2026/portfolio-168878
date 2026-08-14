@@ -28,7 +28,7 @@ h1, h2, h3 {
 
 /* ---- Header / Nav ---- */
 header {
-  background-color: var(--color-navy);
+  background-color: #14203a;   /* was var(--color-navy) */
   padding: 1.25rem 2rem;
 }
 
