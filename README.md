@@ -33,7 +33,7 @@ This site brings together my academic background, leadership experience, and cor
 
 This site is deployed via GitHub Pages, served directly from the `main` branch at the repository root.
 
-## 📋 Project Workflow
+## Project Workflow
 
 This project was built using a professional Git/GitHub workflow, including:
 - Milestone-based planning (3 milestones, 9 issues)
